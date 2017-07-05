@@ -119,5 +119,6 @@ CMD ["start-notebook.sh"]
 
 EXPOSE 22
 EXPOSE 3000
+EXPOSE 8888
 
 WORKDIR /data
