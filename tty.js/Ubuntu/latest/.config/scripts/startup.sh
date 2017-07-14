@@ -9,6 +9,7 @@ source $HOME/.bashrc
 cd /tty.js && nodejs ./tty-me.js --daemonize
 /usr/local/bin/start-notebook.sh
 source .bashrc
+cd $HOME/data
 
 while [ 1 ]; do
     /bin/bash
